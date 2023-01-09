@@ -153,6 +153,7 @@ GEM
     ffi-compiler (1.0.1)
       ffi (>= 1.0.0)
       rake
+    fusioncharts-rails (0.0.2)
     git (1.13.0)
       addressable (~> 2.8)
       rchardet (~> 1.8)
@@ -402,6 +403,7 @@ DEPENDENCIES
   draft_generators!
   factory_bot_rails
   faker
+  fusioncharts-rails
   grade_runner!
   groupdate
   htmlbeautifier
