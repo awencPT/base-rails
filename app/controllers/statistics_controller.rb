@@ -1,6 +1,6 @@
 class StatisticsController < ActionController::Base
-  skip_before_action :verify_authenticity_token
   protect_from_forgery with: :exception
+  skip_before_action :verify_authenticity_token, raise: false
 
   def home
     render({ :template => "statistics_interface/statsPage.html.erb" })
