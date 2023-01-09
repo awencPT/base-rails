@@ -1,4 +1,4 @@
-class AddPoolRates < ActiveRecord::Migration[6.1]
+class AddPoolRates < ActiveRecord::Migration[6.0]
   def change
     add_column :portfolio_snapshots, :feeAccrualRate, :string
     add_column :portfolio_snapshots, :ActiveTickLiquidityAmount0, :string

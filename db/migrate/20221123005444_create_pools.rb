@@ -1,4 +1,4 @@
-class CreatePools < ActiveRecord::Migration[6.1]
+class CreatePools < ActiveRecord::Migration[6.0]
   def change
     create_table :pools do |t|
       t.string :final_analysis_id

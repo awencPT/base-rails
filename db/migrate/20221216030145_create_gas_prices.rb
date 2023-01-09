@@ -1,4 +1,4 @@
-class CreateGasPrices < ActiveRecord::Migration[6.1]
+class CreateGasPrices < ActiveRecord::Migration[6.0]
   def change
     create_table :gas_prices do |t|
       t.string :gasUsed

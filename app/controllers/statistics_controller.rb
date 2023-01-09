@@ -1,4 +1,6 @@
 class StatisticsController < ActionController::Base
+  skip_before_action :verify_authenticity_token
+
   def home
     render({ :template => "statistics_interface/statsPage.html.erb" })
   end
