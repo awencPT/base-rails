@@ -1,5 +1,6 @@
 class RankerController < ActionController::Base
-  skip_before_action :verify_authenticity_token
+  protect_from_forgery with: :exception
+  #skip_before_action :verify_authenticity_token
 
   def poolView
     #  string = Analysis.all.last.final_analysis
